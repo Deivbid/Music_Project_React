@@ -11,7 +11,8 @@ const ArtistList = (props) => {
 			return allArtists.map((item) => {
 
 				const style = {
-					background:`url(/images/covers/${item.cover})`
+					background:`url(/images/covers/${item.cover}.jpg)
+					no-repeat`
 				}
 
 
